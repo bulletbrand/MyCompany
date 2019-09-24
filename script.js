@@ -1,9 +1,8 @@
-/*отслеживаем клики для меню и вызываем функцию*/
 menu.onclick = function myFunction() {
-var x = document.getElementById('myTopnav'); /*переменная применяет значения по елементу с айди майтопнав */
+var x = document.getElementById('myTopnav'); 
 
-if (x.className ==="topnav"){   /*если переменная х класс нейм идентично классу топнав тогда */
-  x.className += " responsive";    /*тогда тобавляем к классу слово респонсив и получается что классы к медиа в ксс применяются,пробел перед респонсив обязи что б как класс добавляло! */
+if (x.className ==="topnav"){   
+  x.className += " responsive";   
 }else {
   x.className = "topnav";
   }
